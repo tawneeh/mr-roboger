@@ -1,7 +1,11 @@
-function beepBoop() {
-  let userNumber  = parseInt($("#userNumber").val());
-  return 0;
-}
+function beepBoop(userInput) {
+  if (userInput === 0);
+    return 0;
+  } else if (userInput === 1) {
+    return true;
+  }
+
+
 
 document.getElementById("#output").submit();
 
@@ -20,3 +24,5 @@ $("#clearButton").click(function() {
 
   });
 });
+
+//let userNumber  = parseInt($("#userNumber").val()); <---- on line 2
