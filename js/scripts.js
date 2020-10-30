@@ -1,10 +1,12 @@
+const countUp = [0,"Beep!"]
+
 function beepBoop(userInput) {
-  if (userInput === 0);
+  if (userInput === 0) {
     return 0;
   } else if (userInput === 1) {
-    return true;
+    return countUp;
   }
-
+}
 
 
 document.getElementById("#output").submit();
@@ -25,4 +27,4 @@ $("#clearButton").click(function() {
   });
 });
 
-//let userNumber  = parseInt($("#userNumber").val()); <---- on line 2
+//let userNumber  = parseInt($("#userNumber").val()); <---- right under if (userInput) line
