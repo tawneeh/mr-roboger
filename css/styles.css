@@ -1,0 +1,14 @@
+body {
+  background-color: seashell;
+}
+
+h1 {
+  text-align: center;
+}
+
+.btn {
+  font-size: 20px;
+  color: darkblue;
+  border: 2px solid black;
+}
+
