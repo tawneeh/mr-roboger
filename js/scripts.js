@@ -17,13 +17,21 @@ function beepBoop(userInput) {
   }
 }
 
-function beepBoop2(numberString) {
+function beepBoop2(number) {
+  const numberString = number.toString
   if (numberString.includes("3")) {
     return "Won't you be my neighbor?";
   } else if (numberString.includes("2")) {
     return "Boop!";
   } else if (numberString.includes("1")) {
     return "Beep!";
+}
+}
+
+function processInput(userInput) {
+const userNumber = parseInt(userInput)
+  for (i = userInput; i >= 0; i--) { 
+
 }
 }
 
