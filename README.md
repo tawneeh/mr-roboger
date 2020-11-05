@@ -1,6 +1,6 @@
 # Mr. Roboger's Neighborhood
 
-#### Mr. Roboger Will count to any number you would like and welcome you to the neighborhood. He might add a couple of "beeps" and "boops" while he is counting. He is a robot after all. 10/30/2020
+#### Mr. Roboger Will count to any number you would like and welcome you to the neighborhood. He might add a couple of "beeps" and "boops" while he is counting. He is a robot after all. 11/3/2020
 
 #### By Tawnee Harris
 
@@ -16,21 +16,21 @@ In order to access Mr. Roboger's Neighborhood, please open the GitBash terminal.
 
 Describe: beepBoop()
 
-* Test: "It should return an array with a 0 if the number 0 is inputted"
-* Expect: (beepBoop(0).toEqual([0]);
+* Test: "It should return 0 if the number 0 is inputted"
+* Expect: (beepBoop(0).toEqual(0);
 
-* Test: "It should return an array with a 0 and "Beep!" if the number 1 is inputted"
-* Expect(beepBoop(1).toEqual([0, "Beep!"]);
+* Test: "It should return a 0 and "Beep!" if the number 1 is inputted"
+* Expect(beepBoop(1).toEqual(0, "Beep!");
 
-* Test: "It should return an array with a 0, "Beep!" and "Boop!" if the number 2 is inputted"
-* Expect(beepBoop(2).toEqual([0, "Beep!", "Boop!"]);
+* Test: "It should return a 0, "Beep!" and "Boop!" if the number 2 is inputted"
+* Expect(beepBoop(2).toEqual(0, "Beep!", "Boop!");
 
-* Test: "It should return an array with a 0, "Beep!", "Boop!" and "Won't you be my neighbor?" if the number 3 is inputted"
-* Excect(beepBoop(3).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?"]); 
+* Test: "It should return 0, "Beep!", "Boop!" and "Won't you be my neighbor?" if the number 3 is inputted"
+* Excect(beepBoop(3).toEqual(0, "Beep!", "Boop!", "Won't you be my neighbor?"); 
 
 ## Known Bugs
 
-This application is not yet functional.
+There are no known bugs.
 
 ## Support and contact details
 
@@ -40,7 +40,7 @@ Please contact me anytime at <tawneeh@icloud.com>
 
 * HTML
 * CSS
-* JS
+* JavaScript
 * Bootstrap
 * jQuery
 
